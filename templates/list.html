@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To Do List</title>
+</head>
+<body>
+    <h1>To Do List: </h1>
+    <ul>
+        {% for item in newListItem %}
+        <li> {{ item }} </li>
+        {% endfor %}
+    </ul>
+    <form action="/" method="post">
+        <input type="text" name="newItem">
+        <button type="submit" name="button">Add</button>
+    </form>
+</body>
+</html>
