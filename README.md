@@ -1,2 +1,2 @@
-# webapp_todolist
+# Flask App - To Do List
 To do list built using Flask
